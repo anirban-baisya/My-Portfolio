@@ -59,7 +59,8 @@ canvas.particles-js-canvas-el {
 /* Navbar */
 
 .nav_section .navbar-brand {
-    font-size: 22px;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive; /* to change navbar company name font family */
 }
 
 .nav_section .navbar-brand span {
@@ -74,7 +75,9 @@ canvas.particles-js-canvas-el {
 .nav_section .navbar-nav li a {
     /*for the anchare tages*/
     color: white !important;
-    font-size: 15px;
+    font-size: 22px;
+    font-family: 'Lobster', cursive; /* to change nav menus font family */
+
 }
 
 .nav_section .navbar-nav .nav-link::before {
@@ -402,6 +405,9 @@ p {
 .skills_section .social_media_icons .list-group-item a {
     /* GitHub transition */
     transition: 0.5s;
+    text-decoration: none;
+    color: inherit;
+    /* to remove href link highlight  */
 }
 
 .skills_section .social_media_icons .list-group-item:hover a {
@@ -443,7 +449,7 @@ p {
 
 .portfolio_section .nav-tabs {
     border: none;
-    width: 30%;
+    width: 60%;
     text-align: center;
 }
 
